@@ -1,0 +1,112 @@
+body
+{
+  background: #222e26;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+  appearance: none;
+  width: 40%; /* Full-width */
+  height: 15px; /* Specified height */
+  background: #6932a8; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #a83232; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+#tit
+{
+  position: absolute;
+  left: 360px;
+  top: -30px;
+  color: #3495eb;
+font-family: 'Balsamiq Sans', cursive;
+
+  font-size: 90px;
+}
+
+#sub {
+
+  height: 60px;
+  width: 100px;
+  position: absolute;
+  left: 1180px;
+  bottom: 290px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#change {
+
+  position: absolute;
+  left: 1030px;
+  font-size: 40px;
+  bottom: 290px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #c3f229
+
+}
+
+
+#pass_gen {
+  position: absolute;
+  left: 460px;
+  font-size: 40px;
+  font-family: 'Noto Sans JP', sans-serif;
+  bottom: 150px;
+  color: #b2f7c9
+}
+
+#length {
+
+  position: absolute;
+  left: 186px;
+  font-size: 40px;
+  font-family: 'Noto Sans JP', sans-serif;
+  bottom: 260px;
+  color: #bdbaf5;
+
+}
+
+#copy_btn
+{
+  position: absolute;
+  font-size: 20px;
+  left: 1220px;
+  border-radius: 20px;
+  background-color: #fff5f5;
+  bottom: 180px;
+
+}

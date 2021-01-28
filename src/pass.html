@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <link rel="stylesheet" href="pass.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<h1 id = "tit">Password Generator</h1>
+  <input type="range" value="8" min="4" max="32" class = "slider" id = "range" oninput="this.nextElementSibling.value = this.value">
+<output id = 'change'>8</output>
+<h1 id = "length">Length:</h1>
+<button type="submit" name="button" id = "sub" onclick="disp()">Generate </button>
+<h2 id = "pass_gen">Generated password appears here.</h2>
+<button type="button" name="button" id = "copy_btn" onclick="Copy()">Copy</button>
+</div>
+  </body>
+  <script src="pass.js" charset="utf-8"></script>
+</html>
